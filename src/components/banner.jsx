@@ -16,14 +16,7 @@ function Banner() {
   return (
    <>
    <div className='container1'>
-   
-    <img src={img}></img>
-    <img src={img2}></img>
-    <img src={img3}></img>
-    <img src={img4}></img>
-    <img src={img5}></img>
-
-   
+    
     </div>
 
    </>
