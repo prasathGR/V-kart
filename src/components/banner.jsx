@@ -21,6 +21,8 @@ function Banner() {
     <img src={img2}></img>
     <img src={img3}></img>
     <img src={img4}></img>
+    <img src={img5}></img>
+
    
     </div>
 
