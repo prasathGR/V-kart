@@ -1,20 +1,30 @@
 import React from 'react'
 import './banner.css'
 
-import pick6 from './img/pos.jpg'
-import pick7 from './img/shirt.jpg'
-import pick8 from './img/shoo.jpg'
-import pick9 from './img/smart.jpg'
+import tools from './img/diytools.jpg'
+import shirt from './img/shirt.jpg'
+import shoe from './img/shoo.jpg'
+import smartphone from './img/smart.jpg'
+import nike from './img/nike.jpg'
+import tv from './img/sonytv.jpg'
+import phone from './img/apple.jpg'
+import lap from './img/lenova.jpg'
+import sofa from './img/furniture.jpg'
 
 function Banner() {
   
-    const img6=pick6
-    const img7 = pick7
-    const img8 =pick8
-    const img9 =pick9
-   
+    const img6=tools
+    const img7 = shirt
+    const img8 =shoe
+    const img9 =smartphone
+    const shoes =nike
+    const sony=tv
+    const apple =phone
+    const laptop=lap
+    const furniture=sofa
   return (
    <>
+
    <div
       id="carouselExample"
       className="carousel slide"
@@ -62,8 +72,59 @@ function Banner() {
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
+     
     </div>
+    <div className='container'>
+      <a href='#'>
+        <div className='img-cont'>
+          <div className='img'>
+            <img src={shoes}></img>
+            <h2>Shoes</h2>
+          </div>
+         
+        </div>
+      </a>
+        <a href='#'>
+        <div className='img-cont'>
+          <div className="img">
+          <img src={sony}></img>
+          <h2>Tv</h2>
 
+          </div>
+       
+        </div>
+        </a>
+        <a href='#'>
+        <div className='img-cont'>
+          <div className='img'>
+          <img src={apple}></img>
+          <h2>Mobiles</h2>
+
+          </div>
+
+        </div>
+        </a>
+        <a href='#'>
+        <div className='img-cont'>
+          <div className='img'>
+          <img src={laptop}></img>
+          <h2>Laptops</h2>
+
+          </div>
+        </div>
+        </a>
+        <a href='#'>
+        <div className='img-cont'>
+          <div className='img'>
+          <img src={furniture}></img>
+          <h2>Furniture</h2>
+
+          </div>
+        </div>
+        </a>
+    </div>
+ 
+    
    </>
    
   )
