@@ -1,0 +1,112 @@
+[
+    {
+        "id": 89,
+        "name":"Home Centre Engineered Wood Montoya 6-Seater Dining Set",
+        "amt":24999,
+        "ftype":"pizza",
+        "pic":"https://m.media-amazon.com/images/I/81iMlUo-MrL._AC_UL480_FMwebp_QL65_.jpg",
+        "latest":"no"
+        
+    },
+    {
+        "id":120,
+        "name":"Sleepyhead Kiki - 2 Seater Sofa (Fabric, Sapling Green) 2-",
+        "amt":12849,
+        "ftype":"chat",
+        "pic":"https://m.media-amazon.com/images/I/71TbzXjr8lL._AC_UL480_FMwebp_QL65_.jpg",
+        "latest":"no"
+    },
+    {   "id":109,
+        "name":"Lukzer Engineered Wood 6 Tier Bookcase Open Book Shelf",
+        "amt":3999,
+       
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/711VwTOXo1L._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":111,
+        "name":"Ganpati Arts Solid Sheesham Wood 3 Seater Sofa Cum Bed",
+        "amt": 32748,
+         "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/81L5Gk8qqhL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":121,
+        "name":"NEST NATURE HAVEN Round Coffee Table, Modern Nestings",
+        "amt":2849 ,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/81bnrrd4x8L._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":122,
+        "name":"DECOR VILLAGE | 1-Seater, 3X6 Feet | Sofa Cums Bed for Home",
+        "amt":3999 ,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/71yCjDAZXjL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":123,
+        "name":"JUMBO CRAFTS Ottoman Stool for Living Room Sitting Pouffes",
+        "amt":2445    ,
+       
+      
+    
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/711zNzt2CyL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":124,
+        "name":"INSTER Bean Bag Cover 4XL Without Beans with Footrest",
+        "amt":1089 ,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/61Ljqgsat6L._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":125,
+        "name":"WiproWood Sheesham Wood Center Coffee Table Set with 4 Stools for Living Room Home Hall ",
+        "amt": 9999,
+    
+
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/61OlQukl1RL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":126,
+        "name":"Lukzer 5-Tier L-Shaped Multipurpose Book Shelf |",
+        "amt":2680,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/81Y2956s9wL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":127,
+        "name":"Mom's Moon Super Comfy Long Rocking Chair",
+        "amt":765 ,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/41xSNXKBXBL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":128,
+        "name":"Heartily® Mangal Beautiful Wooden Pooja Stand for Home",
+        "amt":979,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/81cZrglhmYL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":129,
+        "name":"WOODWALLZ Square Coffee Tables,2 Square Coffee Table",
+        "amt":3688,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/71FK8mkQyBL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":130,
+        "name":"HANDWOOD FURNITURE Solid Wood 3 Seater Wooden Sofa",
+        "amt":14999,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/61CAJWG3k5L._AC_UL480_FMwebp_QL65_.jpg"
+    }
+    
+    
+    
+
+]
