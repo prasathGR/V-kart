@@ -1,46 +1,60 @@
 import React from 'react'
 import './nav.css'
-import Banner from './banner'
-export default function Nav () {
+import Home from './home'
+import './mobile'
+import './furniture'
+import './toys'
+import './cloth'
+import './beauty'
+import './viewcart'
+import {Link} from "react-router-dom"
+export default function Nav ({cart}) {
   return (
   <>
-  <div className='navbar'>
+  <div className='navbar1'>
   
-    <li>
+    
     <a href='#' className='companyname'>V kart</a>
-    </li>
-    <div class="search">
-        <i class="fa fa-search"></i>
-        <input type="text" class="form-control" placeholder="search"></input>
-        <button class="btn btn-primary">Search</button>
-    </div>
-    <li>
-        <a href='#'> View Cart</a>
-    </li>
+    
+    <div class="col-md-8">
+
+{/* <div class="search">
+  <i class="fa fa-search"></i>
+  <input type="text" class="form-control" placeholder="search"></input>
+  <button class="btn btn-primary">Search</button>
+</div> */}
+
+</div>
+  
+    <Link to={"/viewcart"} className='cart-count'><span className='cart-count'> {cart ? cart.length : 0} </span>View Cart</Link>  
+       
+    
  
   </div>
   <div className='sec-nav'>
+  <li>
+     <Link to={""}>Home</Link>
+     </li>
     <li>
-        <a href=''>Mobiles</a>
+       <Link to={"/mobile"}>Mobile</Link>  
     </li>
     <li>
-        <a href=''>Fashion</a>
+    <Link to={"/beauty"}>Beauty</Link>
     </li>
     <li>
-        <a href=''>HomeAppliance</a>
+    <Link to={"/cloth"}>Cloths</Link>
+    </li>
+   
+    <li>
+    <Link to={"/toys"}>Toys</Link>
     </li>
     <li>
-        <a href=''>Furniture</a>
-    </li>
-    <li>
-        <a href=''>Books</a>
-    </li>
-    <li>
-        <a href=''>Furniture</a>
-    </li>
+     <Link to={"/furniture"}>Furniture</Link>
+     </li>
+    
     
   </div>
-<Banner></Banner>
+
   
   </>
   )

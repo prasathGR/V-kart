@@ -1,6 +1,14 @@
 import React from 'react'
 
-function Toysitem({tdata}) {
+function Toysitem({tdata,cart,setCart}) {
+  const addCart=()=>{
+    setCart([...cart, tdata]);
+  };
+  const removeCart=()=>{
+    setCart(cart.filter((c)=>c.id!== tdata.id));
+   
+  }
+  const rupees = new Intl.NumberFormat("en-US").format(tdata.amt);
   return (
     <>
     <div className='product'>
@@ -9,10 +17,15 @@ function Toysitem({tdata}) {
         </div>
         <div className="details">
         <h3>{tdata.name}</h3>
-        <p>Rs.{tdata.amt}</p>
+        <p>Rs.{rupees}</p>
         
     
-          <button >add to cart</button>
+        {
+        cart.includes(tdata)?(<button className="btn-remove" onClick={removeCart} >remove the cart</button>)
+        :(
+          <button onClick={addCart}>add to cart</button>
+        )
+      }
         
         </div>
        

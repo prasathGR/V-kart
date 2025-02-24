@@ -12,12 +12,12 @@
     
 }
 .product:hover{
-    background-color: rgba(189, 189, 189, 0.389);
+    background-color: rgba(219, 219, 219, 0.389);
 }
 .product .img{
-    width: 200px;
-    height: 150px;
-    padding: 20px;
+    width: 150px;
+    padding: 2px;
+    align-items: center;
 }
 .product .img img{
     width: 200px;
@@ -46,7 +46,7 @@
 .details button{
     margin-top: 10px;
     padding: 5px;
-    background-color: rgb(33, 101, 39);
+    background-color: rgb(33, 101, 64);
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 3px;
@@ -57,4 +57,8 @@
 }
 .bibi-plus{
     color: blue;
+}
+.btn-remove{
+    background-color: red;
+    
 }

@@ -1,9 +1,14 @@
 import React from 'react'
+import  { useState } from 'react'
 import mdata from './mobileproduct.json'
 import Mobileitem from './mobileitem'
 import './mobile.css'
+import { cartcontext } from './App'
+import { useContext } from 'react'
 function Mobile() {
-  const data =mdata
+  const [data]=useState(mdata)
+  const {cart,setCart}=useContext(cartcontext)
+ 
   console.log(data)
   return (
     <>
@@ -11,7 +16,7 @@ function Mobile() {
   <div className='homecon'>
         {data.map(
            (data)=> (
-            <Mobileitem key={data.id} data={data} />
+            <Mobileitem key={data.id} data={data} cart={cart} setCart={setCart} />
            )
         )}
     </div>

@@ -1,24 +1,45 @@
-.navbar{
+.navbar1{
     width: 100%;
     height: 50px;
     align-items: center;
     background-color:#0F1111;
     display: inline-flex;
-    justify-content: space-between
+    justify-content: space-between;
+  
 }
-.navbar li  a , .sec-nav li a{
+.sec-nav{
+   
+    
+    
+}
+.navbar1 li  a , .sec-nav li a{
     text-decoration: none;
     color: white;
   
 }
 .companyname{
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight:bold;
     font-style: normal;
+    font-size: x-large;
+   
+    text-decoration: none;
+    background: -webkit-linear-gradient( #FCFAFB, #C8D3D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
-.navbar li , .sec-nav li{
+.cart-count{
+    color: #1f7ac9;
+    text-decoration: none;
+    background: -webkit-linear-gradient(#DAFF7D, #9bb5ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.navbar1 li , .sec-nav li{
     list-style-type: none;
 }
 .search{
@@ -63,3 +84,79 @@
     border-radius: 5px;
     border: 2px solid #ffffff;
 }
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+      
+    }
+    .search input{
+
+        height: 30px;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4;
+        
+
+       }
+
+
+       .search input:focus{
+
+        box-shadow: none;
+        border: 2px solid blue;
+
+
+       }
+
+       .search .fa-search{
+
+        position: absolute;
+        top: 20px;
+        left: 16px;
+
+       }
+
+       .search button{
+
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        height: 20px;
+        width: 110px;
+        background: rgb(44, 44, 46);
+      font-size: 10px;
+      flex-grow: inherit;
+      font-weight: bolder;
+      color: #ffffff;
+
+       }
+       
+
+
+     
+
+    
+
+
+       
+       @media (max-width: 440px) { 
+        .search button {
+            width: 50px;
+            height: 20px;
+            top: 5px;
+        }
+        .search button{
+            font-size: 10px;
+            padding: 2px;
+        }
+        .search input{
+
+            height: 30px;
+            width: 200px;
+            text-indent: 10px;
+            border: 2px solid #d6d4d4;
+    
+    
+           }
+    
+
+        }

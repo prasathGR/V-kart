@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "name":"LAKMÉ 9 To 5 Cc Cream Mini|| 01-Beige|| Light Face Makeup",
+        "amt":99,
+        "ftype":"pizza",
+        "pic":"https://m.media-amazon.com/images/I/51IgR2yRK2L._AC_UL480_FMwebp_QL65_.jpg",
+        "latest":"no"
+        
+    },
+    {
+        "id":2,
+        "name":"MAYBELLINE fit me pressed matte oily skin ",
+        "amt":161,
+        "ftype":"chat",
+        "pic":"https://m.media-amazon.com/images/I/61FDV10Re5L._AC_UL480_FMwebp_QL65_.jpg",
+        "latest":"no"
+    },
+    {   "id":3,
+        "name":"NIVEA Pearl and Beauty 50ml Deo Roll On | With Pearl Extracts & Avocado Oil| ",
+        "amt":176,
+       
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/41LS9x7LhjL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":4,
+        "name":"Lotus Herbals WhiteGlow Skin Whitening And Brightening Gel, Face Cream with SPF-25",
+        "amt": 234,
+         "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/51SBvvInYnL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":5,
+        "name":"Swiss Beauty Cream It Up Blusher | Highly Pigmented | Long-lasting | Buildable & Blendable ",
+        "amt":269 ,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/516sxTaLmzL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":6,
+        "name":"LAKMÉ Absolute Perfect Radiance Brightening Day Cream 50 g",
+        "amt":206,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/61fqwozv1BL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":7,
+        "name":"L'Oreal Paris Serum, Protection and Shine, For Dry, Flyaway & Frizzy ",
+        "amt":389    ,
+       
+      
+    
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/61GGg1vs3DL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":8,
+        "name":"Maybelline New York Mascara, Curls Lashes, Highly Pigmented Colour",
+        "amt":257,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/51Y2UGLW+bL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":9,
+        "name":"LAKMÉ Forever Matte Compact, Smooth Finish For Normal Skin , Lasts For 12 Hrs",
+        "amt": 178,
+    
+
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/416ySrelauL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":10,
+        "name":"POND's Natural Glow Face Matte Powder For Normal Skin, Bb Glow - 30G, Pink",
+        "amt":94,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/51pNLVL+DKL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":11,
+        "name":"Swiss Beauty Bold Matt Lip Liner | Long-lasting |Matte Finish | Non-drying | Shade-15, 1.6gm",
+        "amt":62 ,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/51YDxDggnVL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":12,
+        "name":"UrbanGabru Charcoal Black Peel Off Mask for Men & Women | Removes Blackheads ",
+        "amt":199,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/61eepy5CY+L._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":14,
+        "name":"Pilgrim Korean Beauty White Lotus Refreshing Face Mist & Toner ",
+        "amt":210,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/71JNvx2i7QL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":13,
+        "name":"WILDGLOW 7in1 Red Wine Gel Face Mask for Glowing Skin, De-Tan",
+        "amt":549,
+        "ftype":"food",
+        "pic":"https://m.media-amazon.com/images/I/61qHAyr+eCL._AC_UL480_FMwebp_QL65_.jpg"
+    }
+    
+    
+    
+
+]

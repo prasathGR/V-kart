@@ -8,11 +8,29 @@
    margin-right: 50px;
     color: rgb(14, 11, 11);
     align-items: center;
-    display: flex;
+   display: flex;
+
     
 }
+@media (max-width: 440px) { 
+    .product{
+        width: 1000px;
+        height: 150px;
+        border: 1px solid #ccc; 
+        background-color: rgb(255, 255, 255);
+      
+        color: rgb(42, 36, 36);
+      
+      
+     
+    
+        
+    }
+       
+  }
+  
 .product:hover{
-    background-color: rgba(189, 189, 189, 0.389);
+    background-color: rgba(229, 229, 229, 0.389);
 }
 .product .img{
     width: 200px;
@@ -57,4 +75,57 @@
 }
 .bibi-plus{
     color: blue;
+}
+@media (max-width: 440px) { 
+    .details p{
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: 15px;
+        color: rgb(143, 94, 4);
+    }
+    .details{
+        padding: 5px;
+        gap: 0px;
+        display: inline;
+        width: 150px;
+        
+    }
+}
+@media (max-width: 440px) { 
+    .details h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+    }
+    .product .img{
+        width: 200px;
+        height: 150px;
+        padding:25px;
+        
+        
+    }
+}
+@media (max-width: 440px) { 
+    .product .img img{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        
+    }
+    .details button{
+        margin-top: 10px;
+        padding: 1px;
+        background-color: rgb(33, 101, 39);
+        color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 3px;
+        display: block;
+        width: 50px;
+        height: 30px;
+        font-size: 7px;
+    }
+}
+.product:hover{
+   
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 195, 0.426), 0 6px 20px 0 rgba(34, 228, 4, 0.688);
+    
 }

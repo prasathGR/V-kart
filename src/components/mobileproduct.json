@@ -1,6 +1,6 @@
 [
     {
-        "id": 89,
+        "id": 43,
         "name":"Redmi Note 14 Pro+ 5G",
         "amt":35999.00,
         "ftype":"pizza",
@@ -9,14 +9,14 @@
         
     },
     {
-        "id":120,
+        "id":44,
         "name":"Infinix Zero Flip 5G",
         "amt":49999.00,
         "ftype":"chat",
         "pic":"https://static.digit.in/Infinix-Zero-Flip-5G-2-300x300.jpg",
         "latest":"no"
     },
-    {   "id":109,
+    {   "id":45,
         "name":"Vivo Y300 5G",
         "amt": 21878
         ,
@@ -25,28 +25,28 @@
         "pic":"https://static.digit.in/Vivo-Y300-5G-4-300x300.jpg"
     },
     {
-        "id":111,
+        "id":46,
         "name":"Apple iPhone 15 Plus",
         "amt": 87900 ,
          "ftype":"food",
         "pic":"https://static.digit.in/default/apple-iphone-15-plus-fb0b82e7c8.jpeg"
     },
     {
-        "id":121,
+        "id":47,
         "name":"OPPO Find X8 Pro",
         "amt":99999.00,
         "ftype":"food",
         "pic":"https://static.digit.in/OPPO-Find-X8-Pro-300x300.jpg"
     },
     {
-        "id":122,
+        "id":48,
         "name":"iPhone SE (2022) 256GB",
         "amt":43900.00,
         "ftype":"food",
         "pic":"https://static.digit.in/default/df4942f0c82de8aa7cdaabb2eb5b14c0cc6f7c5d.jpeg"
     },
     {
-        "id":123,
+        "id":49,
         "name":"POCO M6 Plus 5G",
         "amt":11999    ,
        
@@ -56,14 +56,14 @@
         "pic":"https://static.digit.in/POCO-M6-Plus-5G-4-300x300.jpg"
     },
     {
-        "id":124,
+        "id":50,
         "name":"Redmi Note 14 Pro",
         "amt":26999.00,
         "ftype":"food",
         "pic":"https://static.digit.in/Redmi-Note-14-Pro-2-300x300.jpg"
     },
     {
-        "id":125,
+        "id":51,
         "name":"Xiaomi 14 CIVI",
         "amt":         42999,
     
@@ -72,35 +72,35 @@
         "pic":"https://static.digit.in/Xiaomi-14-CIVI-1-300x300.jpg"
     },
     {
-        "id":126,
+        "id":52,
         "name":"Samsung Galaxy Z Flip 6",
         "amt":89999,
         "ftype":"food",
         "pic":"https://static.digit.in/Samsung-Galaxy-Z-Flip-6-1-300x300.jpg"
     },
     {
-        "id":127,
+        "id":53,
         "name":"Samsung Galaxy Z Fold 6 5G",
         "amt":152499,
         "ftype":"food",
         "pic":"https://static.digit.in/Samsung-Galaxy-Z-Fold-6-2-300x300.jpg"
     },
     {
-        "id":128,
+        "id":54,
         "name":"Samsung Galaxy F15 5G",
         "amt":15999.00,
         "ftype":"food",
         "pic":"https://static.digit.in/Samsung-Galaxy-F15-5G-3-300x300.jpg"
     },
     {
-        "id":129,
+        "id":55,
         "name":"Samsung Galaxy S24 Ultra",
         "amt":139999.00,
         "ftype":"food",
         "pic":"https://static.digit.in/Samsung-Galaxy-S24-Ultra-300x300.jpg"
     },
     {
-        "id":130,
+        "id":56,
         "name":"Samsung Galaxy M32 Prime Edition",
         "amt":15499.00,
         "ftype":"food",

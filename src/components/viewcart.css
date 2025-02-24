@@ -1,0 +1,153 @@
+.cart-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    position: relative;
+    width: 500px;
+    gap: 10px;
+    height: 200px;
+    flex-wrap: wrap;
+  
+
+}
+.productcontainer{
+    width: 100%;
+   
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.price{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media (max-width: 440px){
+    .cart-product{
+       background-color: rgb(255, 255, 255);
+       height: 100px;
+       width: 300px;
+       gap:2px;
+    
+    }
+    .cart-container{
+        margin-left: 45px;
+    }
+    .pname{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bolder;
+        font-size: 11px;
+        color: rgb(0, 0, 0);
+       
+        
+    }
+    .product-details{
+        gap: none;
+    }
+    .cancel-button{
+        background-color: rgb(48, 253, 16);
+        border: none;
+        color: white;
+        padding: 2px;
+        border-radius: 15%;
+        height: 20px;
+        font-size: 10px;
+    }
+ 
+}
+
+ @media (max-width: 440px){
+    .price{
+        font-size: 10px;
+        font-weight: bold;
+    }
+   
+}
+.cancel-button:hover{
+    background-color: rgb(169, 5, 5);
+ 
+}
+.cart-product{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+   border: 1px solid #ccc;
+   
+}
+.cart-product  img{
+    
+    width: 100px;
+    height: 100px;
+}
+.head{
+   color: rgb(31, 149, 90);
+   text-align: center;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.img1{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+.cancel-button{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 2px;
+    border-radius: 25%;
+}
+.detail{
+  
+    padding: 10px;
+}
+.price{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(143, 94, 4); 
+}
+
+.cart-product:hover{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+   border: 1px solid #ccc;
+   background-color: #f0f0f0;
+   
+}
+.total{
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.orderbtn{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: rgb(255, 213, 0);
+    font-size: larger;
+    font-weight: bold;
+}
+@media (max-width: 440px){
+    .orderbtn{
+        width: 70px;
+        height: 50px;
+        border: none;
+        background-color: rgb(255, 213, 0);
+        font-size: larger;
+        font-weight: bold;
+        border-radius: 15px;
+    }
+    .emptypick{
+        width: 200px;
+        height: 200px;
+      position: relative;
+      left: 50px;
+    }
+
+}
+.delivery-container{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(172, 181, 178, 0.104);
+    position: relative;
+    left: 200px;    
+}

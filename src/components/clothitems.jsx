@@ -1,6 +1,12 @@
 import React from 'react'
 
-function Clothitems({cdata}) {
+function Clothitems({cdata,cart,setCart}) {
+  const addCart=()=>{
+    setCart([...cart, cdata]);
+  };
+  const removeCart=()=>{
+    setCart(cart.filter((c)=>c.id!== cdata.id));
+  }
   return (
    <>
   <div className='product'>
@@ -11,8 +17,12 @@ function Clothitems({cdata}) {
         <h3>{cdata.name}</h3>
         <p>Rs.{cdata.amt}</p>
         
-    
-          <button >add to cart</button>
+        {
+        cart.includes(cdata)?(<button className="btn-remove" onClick={removeCart} >remove the cart</button>)
+        :(
+          <button onClick={addCart}>add to cart</button>
+        )
+      }
         
         </div>
        
