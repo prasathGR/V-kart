@@ -1,17 +1,23 @@
 .cart-container{
     display: flex;
-    flex-direction: row;
+   
     padding: 10px;
     position: relative;
     width: 500px;
     gap: 10px;
     height: 200px;
     flex-wrap: wrap;
-  
+ 
+        display: flex;
+        flex-direction: row;
+        max-height: 400px; /* You can adjust this value depending on your design */
+     
+      
+      
 
 }
 .productcontainer{
-    width: 100%;
+    width: auto;
    
     height: 100%;
     display: flex;
@@ -94,8 +100,10 @@
     background-color: red;
     border: none;
     color: white;
-    padding: 2px;
-    border-radius: 25%;
+    padding: 1px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .detail{
   
@@ -119,22 +127,26 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .orderbtn{
-    width: 100px;
+    width: 150px;
     height: 50px;
     border: none;
     background-color: rgb(255, 213, 0);
     font-size: larger;
     font-weight: bold;
+    border-radius: 5px;
+}
+.orderbtn:hover{
+    background-color:rgba(231, 176, 9, 0.879) ;
 }
 @media (max-width: 440px){
     .orderbtn{
-        width: 70px;
-        height: 50px;
+        width: 100px;
+        height: 40px;
         border: none;
-        background-color: rgb(255, 213, 0);
-        font-size: larger;
+        background-color: rgb(253, 211, 0);
+        font-size: small;
         font-weight: bold;
-        border-radius: 15px;
+        border-radius: 5px;
     }
     .emptypick{
         width: 200px;
@@ -150,4 +162,44 @@
     background-color: rgba(172, 181, 178, 0.104);
     position: relative;
     left: 200px;    
+}
+.order-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 2rem auto;
+  }
+  
+  .order-form input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .order-form input:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  @media (max-width: 440px){
+   
+    .productcontainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cart-container{
+        display: flex;
+        flex-direction: row;
+        max-height: 400px; /* You can adjust this value depending on your design */
+        overflow-y: auto;
+    }
 }
