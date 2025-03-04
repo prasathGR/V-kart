@@ -42,6 +42,9 @@ function Viewcart() {
     if (phone.length < 10) {
       alert('Phone number must be at least 10 digits long.');
       return;
+    }else if(phone.length >10){
+      alert('Enter valid mobile number');
+      return;
     }
     const otp = Math.floor(1000 + Math.random() * 9000).toString();
     setGeneratedOtp(otp);
@@ -138,7 +141,7 @@ function Viewcart() {
                 required
               />
               <input
-                type="text"
+                type="number"
                 placeholder="Phone Number"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
